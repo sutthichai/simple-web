@@ -21,3 +21,5 @@
 * [ตัวอย่างที่ 3 วาดตารางด้วย bootstrap style](https://github.com/sutthichai/simple-web/blob/master/table-with-bootstrap.html)
 * [ตัวอย่างที่ 4 ทำ template ง่ายๆด้วย bootstrap](https://github.com/sutthichai/simple-web/blob/master/template.html)
 * [ตัวอย่างที่ 5 ทำ dynamic web ด้วย php จาก template ในตัวอย่างที่ 4](https://github.com/sutthichai/simple-web/blob/master/index.php)
+
+![example](https://github.com/sutthichai/simple-web/blob/master/Screen%20Shot%202560-09-16%20at%2011.04.11%20PM.png)
