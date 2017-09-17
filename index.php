@@ -26,7 +26,7 @@
                 $avg_pressure = 0;
                 $avg_humidity = 0;
                 $row_count = 0;
-                while (! feof($objCSV) && $row_count <= $max_row) {
+                while (! feof($objCSV)) {
                     $objArr = fgetcsv($objCSV);
                     $avg_temperture += $objArr[1];
                     $avg_pressure += $objArr[2];
