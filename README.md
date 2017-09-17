@@ -1,5 +1,5 @@
 # simple-web
-# 4 อย่างที่ต้องรู้ในการเริ่มต้นทำเว็บ
+# 4 step ในการเริ่มต้นทำเว็บ
 ### 1.Basic HTML
 * [เริ่มทำหน้าแรก](https://www.w3schools.com/html/html_basic.asp)
 * [ทำความรู้จัก Elements](https://www.w3schools.com/html/html_elements.asp)
