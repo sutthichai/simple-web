@@ -12,10 +12,10 @@ def writeData(temp, pressure, humidity) :
     with open(path) as csvfile:
         readCSV = csv.reader(csvfile, delimiter=',')
         for row in readCSV:
-            line = "{0},{1},{2},{3} \n".format(time.time(), row[0], row[1], row[2])
+            line = "{0},{1},{2},{3}\n".format(row[0], row[1], row[2], row[3])
             oldData += line
 
-    first_line = "{0:.1f},{1:.1f},{2:.1f},{3:.1f} \n".format(time.time(), temp, pressure, humidity)
+    first_line = "{0},{1:.1f},{2:.1f},{3:.1f} \n".format(time.time(), temp, pressure, humidity)
     f = open(path, 'w')
     f.write(first_line)
     f.write(oldData)
@@ -45,8 +45,5 @@ while count < 10:
 
     writeData(temp, pressure, humidity)
     count = count + 1
-    time.sleep(30)
-
-
-
+    time.sleep(10)
 
